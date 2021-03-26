@@ -5,10 +5,13 @@
         h1{
             font-family: 'Courier New', Courier, monospace;
             font-size: 300%;
-            border: 2px solid powderblue;
+            border: 10px solid purple;
             margin: 50px;
+            text-align: center;
+            color: rgb(14, 14, 0);
         p{
             border: 2px solid tomato;
             padding: 100px;
         }
+        
   

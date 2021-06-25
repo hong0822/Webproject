@@ -1,0 +1,30 @@
+/*For input data table */
+#input table{
+    border: 1px solid grey;
+    margin: auto;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#input table tr{
+    padding: 0px;
+    margin: 0px;  
+    border: 0px;
+}
+
+#input table tr th {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(12, 175, 250);
+    border: 0px;
+}
+
+div.center#button{
+    width: 35%;
+    margin: auto;
+}
+
+h1 {
+    text-shadow: 2px 2px red;
+  }
+

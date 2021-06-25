@@ -15,4 +15,13 @@ printf("裤子的长度: %d CM\n",$cowpaint->getLength());
 printf("裤子的腰围: %d inch\n",$cowpaint->getWaist());
 printf("裤子清洗方式: %s", $cowpaint->dowash());
 
+$cowpaint->setMark(new class implements Mark{
+    public function domark(string $mark)
+    {
+        print ($mark);
+    }
+});
+
+$cowpaint->getMark()->domark("Logo");
+
 ?>
